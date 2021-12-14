@@ -1,0 +1,42 @@
+{
+	"name": "andresvp/classphp-demo",
+	"description": "CLase en php y vue - OPE Colombia",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "AndresVP",
+			"email": "Andres_VP28@hotmail.com",
+			"homepage": "http://www.andresvp28.eu5.net",
+			"role": "Desarrollador"
+		}
+	],
+	"homepage": "https://www.prueba.com",
+	"support": {
+		"email": "Andres_VP28@hotmail.com"
+	},
+	"minimum-stability": "beta",
+	"keywords": [
+	  "api",
+	  "ejemplo"
+	],
+	"require": {
+		"altorouter/altorouter": "^2.0",
+		"joshcam/mysqli-database-class": "^2.9",
+		"vlucas/phpdotenv": "^5.4"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"App\\Core\\": "app/core/",
+			"App\\Models\\": "app/models/",
+			"App\\Controllers\\": "app/controllers/"
+		}
+	},
+	"config":{
+		"bin-dir": "bin",
+		"sort-packages": true
+	}
+}
